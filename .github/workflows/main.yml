@@ -2,6 +2,7 @@
 
 name: CIFuzz
 on:
+  workflow_dispatch:
   # Trigger the workflow on push or pull requests, but only for the
   # main branch and only for C source files.
   push:
